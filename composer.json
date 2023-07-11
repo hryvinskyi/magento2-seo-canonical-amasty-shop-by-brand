@@ -1,0 +1,28 @@
+{
+  "name": "hryvinskyi/magento2-seo-canonical-amasty-shop-by-brand",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "amasty/module-shop-by-brand": "2.14.*",
+    "hryvinskyi/magento2-page-speed-api": "1.0.*"
+  },
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Volodymyr Hryvinskyi",
+      "email": "volodymyr@hryvinskyi.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Hryvinskyi\\SeoCanonicalAmastyShopByBrand\\": ""
+    }
+  }
+}

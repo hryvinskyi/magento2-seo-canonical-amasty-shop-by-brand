@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright (c) 2023. MageCloud.  All rights reserved.
+ * @author: Volodymyr Hryvinskyi <mailto:volodymyr@hryvinskyi.com>
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Hryvinskyi\SeoCanonicalFrontend\Model\CanonicalUrlProcessor">
+        <arguments>
+            <argument name="items" xsi:type="array">
+                <item name="amsty_shop_by_brand" xsi:type="array">
+                    <item name="object" xsi:type="object">Hryvinskyi\SeoCanonicalAmastyShopByBrand\Model\CanonicalUrlProcess</item>
+                    <item name="sortOrder" xsi:type="number">150</item>
+                </item>
+            </argument>
+        </arguments>
+    </type>
+    <type name="Hryvinskyi\SeoCanonicalAmastyShopByBrand\Model\CanonicalUrlProcess">
+        <arguments>
+            <argument name="actions" xsi:type="array">
+                <item name="ambrand_index_index" xsi:type="string">ambrand_index_index</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
