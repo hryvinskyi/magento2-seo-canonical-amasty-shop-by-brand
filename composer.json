@@ -1,11 +1,11 @@
 {
   "name": "hryvinskyi/magento2-seo-canonical-amasty-shop-by-brand",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "N/A",
   "type": "magento2-module",
   "require": {
     "magento/framework": "*",
-    "amasty/module-shop-by-brand": "2.14.*",
+    "amasty/module-shop-by-brand": "*",
     "hryvinskyi/magento2-page-speed-api": "1.0.*"
   },
   "license": [
