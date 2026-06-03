@@ -16,7 +16,7 @@ class CanonicalUrlProcess extends AbstractCanonicalUrlProcess
     private ConfigProvider $configProvider;
     private ?UrlInterface $url = null;
 
-    public function __construct(ConfigProvider $configProvider, array $actions = [], UrlInterface $url = null)
+    public function __construct(ConfigProvider $configProvider, array $actions = [], ?UrlInterface $url = null)
     {
         parent::__construct($actions);
         $this->configProvider = $configProvider;
